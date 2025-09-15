@@ -1,0 +1,59 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  # Web Server - Ubuntu 22.04
+  config.vm.define "web-server" do |web|
+    web.vm.box = "ubuntu/jammy64"
+    web.vm.hostname = "web-server"
+    
+    # Network configuration
+    web.vm.network "private_network", ip: "192.168.56.10"
+    web.vm.network "public_network"
+    
+    # Sync folder
+    web.vm.synced_folder "./website/", "/var/www/html/", 
+      owner: "www-data", group: "www-data"
+    
+    # Provider settings
+    web.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vb.cpus = 1
+      vb.name = "web-server-ubuntu"
+      vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+    end
+    
+    # Provisioning
+    web.vm.provision "shell", path: "scripts/provision-web-ubuntu.sh"
+  end
+  
+  # Database Server - CentOS 9
+  config.vm.define "db-server" do |db|
+    db.vm.box = "centos/stream9"
+    db.vm.hostname = "db-server"
+    
+    # Network configuration
+    db.vm.network "private_network", ip: "192.168.56.20"
+    db.vm.network "forwarded_port", guest: 3306, host: 3307
+    
+    # Provider settings
+    db.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vb.cpus = 1
+      vb.name = "db-server-centos"
+      vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+    end
+    
+    # Provisioning
+    db.vm.provision "shell", path: "scripts/provision-db-centos.sh"
+    # Run SQL scripts after MySQL setup
+    db.vm.provision "shell", inline: <<-SHELL
+      # Wait for MySQL to be fully ready
+      sleep 10
+      # Execute table creation
+      mysql -u root < /vagrant/database/create-table.sql
+      # Execute demo data insertion
+      mysql -u root < /vagrant/database/insert-demo-data.sql
+    SHELL
+  end
+end
