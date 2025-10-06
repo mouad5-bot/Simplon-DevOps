@@ -1,0 +1,76 @@
+[2025-10-04 23:37:33] [INFO] Début monitoring SysMonitor Pro
+[2025-10-04 23:37:33] [INFO] Nettoyage en cours...
+[2025-10-04 23:37:50] [INFO] Début monitoring SysMonitor Pro
+[2025-10-04 23:37:50] [INFO] Nettoyage en cours...
+[2025-10-04 23:39:37] [INFO] Début monitoring SysMonitor Pro
+[2025-10-04 23:39:37] [INFO] Nettoyage en cours...
+[2025-10-05 11:21:52] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 11:21:52] [INFO] Nettoyage en cours...
+[2025-10-05 11:44:56] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 11:44:56] [CRITICAL] Dossier requis manquant : ./../reports
+[2025-10-05 11:44:56] [INFO] Nettoyage en cours...
+[2025-10-05 11:48:18] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 11:48:18] [CRITICAL] Dossier requis manquant : ../reports
+[2025-10-05 11:48:18] [INFO] Nettoyage en cours...
+[2025-10-05 11:50:38] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 11:50:38] [CRITICAL] Dossier requis manquant : ./../reports
+[2025-10-05 11:50:38] [INFO] Nettoyage en cours...
+[2025-10-05 11:58:40] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 11:58:40] [CRITICAL] Dossier requis manquant : ./../reports
+[2025-10-05 11:58:40] [INFO] Nettoyage en cours...
+[2025-10-05 12:00:36] [INFO] Nettoyage en cours...
+[2025-10-05 12:02:04] [INFO] Dossier créé automatiquement : ./../reports
+[2025-10-05 12:02:04] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 12:02:04] [INFO] === Surveillance Système ===
+[2025-10-05 12:02:04] [INFO] Nettoyage en cours...
+[2025-10-05 14:56:38] [INFO] Dossier créé automatiquement : ./reports
+[2025-10-05 14:56:38] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 14:56:38] [INFO] === Surveillance Système ===
+[2025-10-05 14:56:38] [INFO] CPU usage normal: 6.2%
+[2025-10-05 14:56:38] [INFO] Utilisation RAM normale: 34%
+[2025-10-05 14:56:38] [INFO] Espace disque ok (/dev/sda1 /): 8%
+[2025-10-05 14:56:38] [INFO] Load average normal: 1min=0.00
+[2025-10-05 14:56:38] [INFO] Nombre total de processus: 101
+[2025-10-05 14:56:38] [INFO] Nettoyage en cours...
+[2025-10-05 15:47:53] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 15:47:53] [INFO] Nettoyage en cours...
+[2025-10-05 17:19:32] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 17:19:32] [CRITICAL] Dossier requis manquant : ./../reports
+[2025-10-05 17:19:32] [INFO] Nettoyage en cours...
+[2025-10-05 22:17:46] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 22:17:46] [CRITICAL] Dossier requis manquant : ./../reports
+[2025-10-05 22:17:46] [INFO] Nettoyage en cours...
+[2025-10-05 22:20:40] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 22:20:40] [INFO] Nettoyage en cours...
+[2025-10-05 22:22:14] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 22:22:14] [INFO] Rapport généré: reports/system_report_20251005_222214.html
+[2025-10-05 22:22:14] [SUCCESS] Monitoring terminé avec succès
+[2025-10-05 22:22:14] [INFO] Nettoyage en cours...
+[2025-10-05 22:32:24] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 22:32:24] [INFO] Nettoyage en cours...
+[2025-10-05 22:33:43] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 22:33:43] [INFO] === Surveillance Système ===
+[2025-10-05 22:33:44] [INFO] Nettoyage en cours...
+[2025-10-05 22:48:37] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 22:48:37] [INFO] === Surveillance Système ===
+[2025-10-05 22:48:37] [INFO] CPU usage normal: 6.7%
+[2025-10-05 22:48:37] [INFO] Utilisation RAM normale: 34%
+[2025-10-05 22:48:37] [INFO] Espace disque ok (/dev/sda1 /): 8%
+[2025-10-05 22:48:37] [INFO] Load average normal: 1min=0.00
+[2025-10-05 22:48:37] [INFO] Nombre total de processus: 101
+[2025-10-05 22:48:37] [INFO] Rapport généré: reports/system_report_20251005_224837.html
+[2025-10-05 22:48:37] [SUCCESS] Monitoring terminé avec succès
+[2025-10-05 22:48:37] [INFO] Nettoyage en cours...
+[2025-10-05 23:00:28] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 23:00:28] [INFO] === Surveillance Système ===
+[2025-10-05 23:00:29] [INFO] CPU usage normal: 6.2%
+[2025-10-05 23:00:29] [INFO] Utilisation RAM normale: 34%
+[2025-10-05 23:00:29] [INFO] Espace disque ok (/dev/sda1 /): 8%
+[2025-10-05 23:00:29] [INFO] Load average normal: 1min=0.00
+[2025-10-05 23:00:29] [INFO] Nombre total de processus: 101
+[2025-10-05 23:00:29] [INFO] Rapport généré: reports/system_report_20251005_230029.html
+[2025-10-05 23:00:29] [SUCCESS] Monitoring terminé avec succès
+[2025-10-05 23:00:29] [INFO] Nettoyage en cours...
+[2025-10-05 23:07:23] [INFO] Début monitoring SysMonitor Pro
+[2025-10-05 23:07:23] [INFO] === Monitoring Système ===
+[2025-10-05 23:07:24] [INFO] Nettoyage en cours...
