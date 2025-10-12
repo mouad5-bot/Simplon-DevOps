@@ -8,14 +8,14 @@
 monitor_cpu_usage() {
     local cpu_idle cpu_usage threshold
     # Using top for real-time or /proc/stat for accuracy
-    cpu_idle=$(top -bn1 | grep '^%Cpu' | awk '{print $8}')
-    cpu_usage=$(( 100 - ${cpu_idle%.*}"))
+    cpu_idle=$(top -bn1 | grep 'Cpu(s)' | awk '{print $8}' | cut -d'.' -f1)
+    cpu_usage=$(printf "%.0f" "$cpu_idle")
     threshold=${CPU:-80}
 
-    if (( ${cpu_usage%.*} > threshold )); then
-        log_warning "CPU usage élevé: $cpu_usage% (seuil: $threshold%)"
+    if (( cpu_usage > threshold )); then
+        log_warning "CPU usage élevé: ${cpu_usage}% (seuil: $threshold%)"
     else
-        log_info "CPU usage normal: $cpu_usage%"
+        log_info "CPU usage normal: ${cpu_usage}%"
     fi
 }
 

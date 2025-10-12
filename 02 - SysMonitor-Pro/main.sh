@@ -21,7 +21,7 @@ main() {
 
 
     run_system_monitoring    
-    run_process_monitoring
+#    run_process_monitoring
     run_service_monitoring
     run_network_monitoring
 

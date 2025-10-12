@@ -26,14 +26,17 @@ find_zombie_processes() {
 # Monitor a specific critical process by name or PID
 # Usage: monitor_specific_process <process_name_or_pid>
 monitor_specific_process() {
-    local target="$1"
+    local target="${1:-}"
     local pid
 
+    if [[ -z "$target" ]]; then
+        log_error "Aucun processus spécifié pour la surveillance."
+        return 1
+    fi
+
     if [[ "$target" =~ ^[0-9]+$ ]]; then
-        # Target is a PID
         pid="$target"
     else
-        # Target is process name, get pid(s)
         pid=$(pgrep -x "$target")
     fi
 
@@ -46,11 +49,11 @@ monitor_specific_process() {
         local state
         state=$(ps -o stat= -p "$p")
         log_info "Processus critique: PID=$p, état=$state"
-        # Additional checks can be added here if needed
     done
 }
 
-# Kill a problematic process safely
+
+# kill a problematic process safely
 # Usage: kill_problematic_process <pid> [signal]
 # Default signal SIGTERM, fallback to SIGKILL if needed
 kill_problematic_process() {
