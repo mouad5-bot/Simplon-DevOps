@@ -235,3 +235,93 @@
 [2025-10-12 19:57:39] [INFO] Rapport généré: reports/system_report_20251012_195738.html
 [2025-10-12 19:57:39] [SUCCESS] Monitoring terminé avec succès
 [2025-10-12 19:57:39] [INFO] Nettoyage en cours...
+[2025-10-14 20:22:10] [INFO] Début monitoring SysMonitor Pro
+[2025-10-14 20:22:10] [INFO] === Monitoring Système ===
+[2025-10-14 20:22:10] [WARNING] CPU usage élevé: 97% (seuil: 80%)
+[2025-10-14 20:22:10] [INFO] Utilisation RAM normale: 12%
+[2025-10-14 20:22:10] [INFO] Espace disque ok (/dev/sda1 /): 17%
+[2025-10-14 20:22:10] [INFO] Load average normal: 1min=0.08
+[2025-10-14 20:22:10] [INFO] Nombre total de processus: 111
+[2025-10-14 20:22:10] [INFO] === Monitoring des services système ===
+[2025-10-14 20:22:10] [INFO] === Surveillance Réseau ===
+[2025-10-14 20:22:11] [INFO] Rapport généré: reports/system_report_20251014_202210.html
+[2025-10-14 20:22:11] [SUCCESS] Monitoring terminé avec succès
+[2025-10-14 20:22:11] [INFO] Nettoyage en cours...
+[2025-10-14 20:44:41] [INFO] Début monitoring SysMonitor Pro
+[2025-10-14 20:44:41] [INFO] === Monitoring Système ===
+[2025-10-14 20:44:42] [WARNING] CPU usage élevé: 93% (seuil: 80%)
+[2025-10-14 20:44:42] [INFO] Utilisation RAM normale: 13%
+[2025-10-14 20:44:42] [INFO] Espace disque ok (/dev/sda1 /): 17%
+[2025-10-14 20:44:42] [INFO] Load average normal: 1min=0.12
+[2025-10-14 20:44:42] [INFO] Nombre total de processus: 110
+[2025-10-14 20:44:42] [INFO] === Monitoring des services système ===
+[2025-10-14 20:44:42] [INFO] === SURVEILLANCE RÉSEAU ===
+[2025-10-14 20:44:51] [INFO] Rapport généré: reports/system_report_20251014_204451.html
+[2025-10-14 20:44:51] [SUCCESS] Monitoring terminé avec succès
+[2025-10-14 20:44:51] [INFO] Nettoyage en cours...
+[2025-10-14 20:45:49] [INFO] Début monitoring SysMonitor Pro
+[2025-10-14 20:45:49] [INFO] === Monitoring Système ===
+[2025-10-14 20:45:49] [WARNING] CPU usage élevé: 96% (seuil: 80%)
+[2025-10-14 20:45:49] [INFO] Utilisation RAM normale: 12%
+[2025-10-14 20:45:49] [INFO] Espace disque ok (/dev/sda1 /): 17%
+[2025-10-14 20:45:49] [INFO] Load average normal: 1min=0.04
+[2025-10-14 20:45:49] [INFO] Nombre total de processus: 110
+[2025-10-14 20:45:49] [INFO] === Monitoring des services système ===
+[2025-10-14 20:45:49] [INFO] Nettoyage en cours...
+[2025-10-14 20:51:47] [INFO] Début monitoring SysMonitor Pro
+[2025-10-14 20:51:47] [INFO] === Monitoring Système ===
+[2025-10-14 20:51:47] [WARNING] CPU usage élevé: 96% (seuil: 80%)
+[2025-10-14 20:51:47] [INFO] Utilisation RAM normale: 12%
+[2025-10-14 20:51:47] [INFO] Espace disque ok (/dev/sda1 /): 17%
+[2025-10-14 20:51:47] [INFO] Load average normal: 1min=0.07
+[2025-10-14 20:51:47] [INFO] Nombre total de processus: 110
+[2025-10-14 20:51:47] [INFO] === Monitoring des services système ===
+[2025-10-14 20:51:47] [INFO] Nettoyage en cours...
+[2025-10-14 20:59:09] [INFO] Début monitoring SysMonitor Pro
+[2025-10-14 20:59:09] [INFO] === Monitoring Système ===
+[2025-10-14 20:59:10] [INFO] Nettoyage en cours...
+[2025-10-14 20:59:50] [INFO] Début monitoring SysMonitor Pro
+[2025-10-14 20:59:50] [INFO] === Monitoring Système ===
+[2025-10-14 20:59:50] [INFO] Nettoyage en cours...
+[2025-10-14 20:59:52] [INFO] Début monitoring SysMonitor Pro
+[2025-10-14 20:59:52] [INFO] === Monitoring Système ===
+[2025-10-14 20:59:52] [WARNING] CPU usage élevé: 98% (seuil: 80%)
+[2025-10-14 20:59:52] [INFO] Utilisation RAM normale: 12%
+[2025-10-14 20:59:52] [INFO] Espace disque ok (/dev/sda1 /): 17%
+[2025-10-14 20:59:52] [INFO] Load average normal: 1min=0.12
+[2025-10-14 20:59:52] [INFO] Nombre total de processus: 109
+[2025-10-14 20:59:52] [INFO] === Monitoring des services système ===
+[2025-10-14 20:59:52] [INFO] Nettoyage en cours...
+[2025-10-14 21:02:08] [INFO] Début monitoring SysMonitor Pro
+[2025-10-14 21:02:08] [INFO] === Monitoring Système ===
+[2025-10-14 21:02:08] [INFO] Nettoyage en cours...
+[2025-10-14 21:02:13] [INFO] Début monitoring SysMonitor Pro
+[2025-10-14 21:02:13] [INFO] === Monitoring Système ===
+[2025-10-14 21:02:13] [WARNING] CPU usage élevé: 94% (seuil: 80%)
+[2025-10-14 21:02:13] [INFO] Utilisation RAM normale: 12%
+[2025-10-14 21:02:13] [INFO] Espace disque ok (/dev/sda1 /): 17%
+[2025-10-14 21:02:13] [INFO] Load average normal: 1min=0.23
+[2025-10-14 21:02:13] [INFO] Nombre total de processus: 110
+[2025-10-14 21:02:13] [INFO] === Monitoring des services système ===
+[2025-10-14 21:02:13] [INFO] Nettoyage en cours...
+[2025-10-14 21:05:29] [INFO] Début monitoring SysMonitor Pro
+[2025-10-14 21:05:29] [INFO] === Monitoring Système ===
+[2025-10-14 21:05:29] [WARNING] CPU usage élevé: 97% (seuil: 80%)
+[2025-10-14 21:05:29] [INFO] Utilisation RAM normale: 12%
+[2025-10-14 21:05:29] [INFO] Espace disque ok (/dev/sda1 /): 17%
+[2025-10-14 21:05:29] [INFO] Load average normal: 1min=0.01
+[2025-10-14 21:05:29] [INFO] Nombre total de processus: 109
+[2025-10-14 21:05:29] [INFO] === Monitoring des services système ===
+[2025-10-14 21:05:29] [INFO] Nettoyage en cours...
+[2025-10-14 21:16:56] [INFO] Début monitoring SysMonitor Pro
+[2025-10-14 21:16:56] [INFO] === Monitoring Système ===
+[2025-10-14 21:16:56] [WARNING] CPU usage élevé: 93% (seuil: 80%)
+[2025-10-14 21:16:56] [INFO] Utilisation RAM normale: 12%
+[2025-10-14 21:16:56] [INFO] Espace disque ok (/dev/sda1 /): 17%
+[2025-10-14 21:16:56] [INFO] Load average normal: 1min=0.17
+[2025-10-14 21:16:56] [INFO] Nombre total de processus: 110
+[2025-10-14 21:16:56] [INFO] === Monitoring des services système ===
+[2025-10-14 21:16:58] [INFO] === SURVEILLANCE RÉSEAU ===
+[2025-10-14 21:17:07] [INFO] Rapport généré: reports/system_report_20251014_211707.html
+[2025-10-14 21:17:07] [SUCCESS] Monitoring terminé avec succès
+[2025-10-14 21:17:07] [INFO] Nettoyage en cours...
