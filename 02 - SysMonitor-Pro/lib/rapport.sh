@@ -24,12 +24,13 @@ generate_system_report() {
 EOF
 
 add_system_metrics_section() {
-    echo "<div class='section'>"
-    echo "<h2>Utilisation du Système</h2>"
-    echo "<p><strong>CPU :</strong> $(top -bn1 | grep 'Cpu(s)' | awk '{print 100 - $8}' | cut -d'.' -f1)% utilisé</p>"
-    echo "<p><strong>Mémoire :</strong> $(free -m | awk '/Mem/ {printf \"%d/%d MB (%.0f%%)\", \$3, \$2, \$3*100/\$2}') utilisé</p>"
-    echo "<p><strong>Espace disque :</strong> $(df -h / | awk 'NR==2 {print $5 \" utilisé sur \" $2}') </p>"
-    echo "</div>"
+echo "<div class='section'>"
+echo "<h2>Utilisation du Système</h2>"
+echo "<p><strong>CPU :</strong> $(top -bn1 | grep 'Cpu(s)' | awk '{print $2 + $4 "% utilisé"}')</p>"
+echo "<p><strong>Mémoire :</strong> $(free -h | awk '/Mem/ {print $3 " utilisé sur " $2}') </p>"
+echo "<p><strong>Espace disque :</strong> $(df -h / | awk 'NR==2 {print $5 " utilisé sur " $6}') </p>"
+echo "</div>"
+
 }
 
 add_process_analysis_section() {
